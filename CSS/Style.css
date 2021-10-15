@@ -1,0 +1,214 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: Trebuchet MS, sans-serif;
+}
+body{
+    background-color: #d9d9d9;
+    
+}
+    
+
+header{
+    width: 100%;
+    margin: auto;
+    background:#363636;
+    position: fixed;
+  
+}
+section{
+    display: inline-block;
+}
+div{
+    display: block;
+}
+.container_h img{
+    max-width: 49px;
+    position: absolute;
+}
+.container_h{
+    width: 100%;
+}
+.menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+ul{
+    float: right;
+    
+ 
+    
+}
+li{
+    margin: 15px;
+    float: left;
+    
+}
+
+.inicio{
+    
+    background-image: url(../Imagens/Inicio_img2.jpg);
+    background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+}
+.card h1{
+    text-transform: uppercase;
+    font-size: min(140px, 10vw);
+    letter-spacing: 5px;
+    text-align: center;
+    padding: 500px;
+    color: #363636;
+}
+.container img{
+    width: 400px;
+    float: left;
+    margin-left: 100px;
+    margin-right: 50px;
+
+}
+.container_t{
+    color: white;
+    float: left;
+    text-align:center;
+    margin-left: 50px;
+   
+}
+
+.container{
+    padding-top: 100px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#Contatos{
+    width: 100%;
+}
+.Contato1{
+    text-align: center;
+    background-color: white;
+    justify-content: center;
+    display: flex;
+}
+.Contato1 h2{
+    margin-top: 50px;
+    font-size: 30px;
+}
+.Contato1 p {
+    margin-top: 50px;
+    font-size: 25px;    
+}
+#Cardapio{
+    margin: auto;
+    text-align: center;
+    margin-bottom: 100px;
+    padding-top: 100px;
+    display: inline;
+    align-items: center;
+    justify-content: center;
+}
+.imgs-cardapio{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    max-width: 2000px;
+}
+.imgs-cardapio div{
+    flex: 1 1 500px;
+    
+}
+#Cardapio h2{
+    color: #363636;
+    padding-top: 90px;
+    margin-bottom: 80px;
+    font-size: 50px;
+
+}
+#QuemSomos h2{
+    color: #363636;
+    padding-top: 30px;
+    margin-bottom: 10px;
+    font-size: 50px;
+    
+}
+#QuemSomos p{
+    padding: 20px;
+    font-size: 25px;
+    text-align: left;
+}
+.fotosc{
+    width: 400px;
+    height: 400px;
+}
+
+a{
+    text-decoration: none;
+    color: #d9d9d9;
+}
+.fotosL{
+    width: 150px;
+    margin-right: 50px;
+}
+
+@media screen and (max-width: 600px) {
+    
+    #Home #QuemSomos #Cardapio #Contatos {
+        height: 350px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    header{
+        display: flex;
+        align-items: center;
+        justify-content: center;  
+        width: 600px;
+    }
+    div{
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+        width: 100%;
+    }
+    ul{
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+        width: 100%;
+    }
+    
+    .container_h img{
+        display: none;
+
+    }
+    .inicio{
+        width: 600px;
+        background-size: cover;
+        text-align: center;
+    }
+    .Contato1{
+        display: block;
+        text-align: center;
+        justify-content: center; 
+    
+    }
+    .Contato2{
+        display: block;
+        text-align: center;
+        justify-content: center; 
+    
+    }
+    .card h1{
+    display: flex;
+    padding: 100px;
+    }
+
+}
